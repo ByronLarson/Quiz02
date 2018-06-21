@@ -9,5 +9,5 @@ This function compares the lengths of two vectors together.  If they are the sam
         out += vector01[k] * vector02[k]# for each iteration after the product is done it adds the number into the container out
     return out
   else:
-    print"input invalid"
+    print("input invalid")
     
