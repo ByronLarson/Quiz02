@@ -5,8 +5,8 @@ This function compares the lengths of two vectors together.  If they are the sam
 
   if len(vector01)==len(vector02) and len(vector01)!=0:#checks to see that the two vectors are the same length and the second vector is not 0
     out = 0 # starts the holding array at 0
-    for k in range(len(v1)):
-        out += v1[k] * v2[k]# for each iteration after the product is done it adds the number into the container out
+    for k in range(len(vector01)):
+        out += vector01[k] * vector02[k]# for each iteration after the product is done it adds the number into the container out
     return out
   else:
     print"input invalid"
