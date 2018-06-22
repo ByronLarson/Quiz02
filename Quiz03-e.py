@@ -1,8 +1,19 @@
 def normalize(vector):
 
   '''
+  Input
+  vector is a 1 x n in length
+  
+  Output
+  newestvector is a 1 x n in length
+  
   This function calculates the normalization of a vector with respect to the infinity norm.  The infinity norm is the maximum absolute value of its components.  I used a for loop to take the absolute value of every element in vector, then another for loop to compare each element in the newvector in order to find the largest value.  From here we multiply 1/ largest times the original vector to get the normalized vector
   '''
+  cV = len(vector[0])# tests that the vector is not a matrix
+  if cV > 1
+    print("Invalid Input")
+    return
+  
   newvector = []
 
   for i in range(len(vector)):# for each iteration we take the absolute value of every element in vector
