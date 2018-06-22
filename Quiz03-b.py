@@ -1,6 +1,14 @@
 def vecSubtract(vector01,vector02):
 
   '''
+  Inputs
+  vector01 should be 1 x n in length
+  vector02 should be a 1 x n in length
+  
+  Output 
+  newvec should be a 1 x n vector
+  
+ 
   In the vecSubtract function two vector lengths are compared, if they are the same length then they can be subtracted.  Each element from their respective places in each row is subtracted from each other then returned into a new vector containing the result
   '''
 
