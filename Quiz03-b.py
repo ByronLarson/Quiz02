@@ -7,7 +7,7 @@ def vecSubtract(vector01,vector02):
   if len(vector01)==len(vector02):# checks to see that the vectors are the same length
     newvec = []
     for i in range(len(vector01)):
-      newvec.append(vector01[i] - vector02[i])# for each iteration each vector is subtracted from one another
+      newvec.append(vector01[i] - vector02[i])# for each iteration each vector is subtracted from one another and put into newvec
     return newvec
   else:
     print("invalid inputs")
