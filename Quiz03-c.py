@@ -12,7 +12,7 @@ def scalarVecMulti(scalar,vector):
 
   '''
   
-  cV = len(vector[0])
+  cV = len(vector[0])# tests that the input vector is not a matrix
   if cV > 1
     print("Invalid Input")
     return
