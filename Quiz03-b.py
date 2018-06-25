@@ -19,3 +19,8 @@ def vecSubtract(vector01,vector02):
     return newvec
   else:
     print("invalid inputs")
+#testvec0 = apple
+#testvec1 = [1,2,3]
+#testvec2 = [4,5,6]
+
+#print(vecSubtract(testvec1,testvec2))
