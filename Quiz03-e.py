@@ -34,4 +34,6 @@ def normalize(vector):
   return newestvector
       
 #testvec = [1,2,3,-55]
+#testvec0 = apple
+
 #print(normalize(testvec)) 
