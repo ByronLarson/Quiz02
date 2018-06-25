@@ -19,8 +19,8 @@ def scalarVecMulti(scalar,vector):
 # for each iteration the vector element is multiplied by the scalar and put into the new vector
   return newvector
   
-testscalar = 8      
-testvec = [1,2,3]
+#testscalar = 8      
+#testvec = [1,2,3]
 #teststr = apple
 
-print(scalarVecMulti(testscalar,testvec)) 
+#print(scalarVecMulti(testscalar,testvec)) 
