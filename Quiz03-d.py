@@ -24,4 +24,5 @@ def infNorm(vector):
   return largest
       
 #testvec = [1,2,3,-555]
+
 #print(infNorm(testvec)) 
