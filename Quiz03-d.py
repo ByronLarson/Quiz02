@@ -25,5 +25,6 @@ def infNorm(vector):
       
 #testvec = [1,2,3,-555]
 #testvec0 = apple
+#testvec1 = 3
 
 #print(infNorm(testvec)) 
