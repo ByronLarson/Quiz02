@@ -8,8 +8,9 @@ def vecSubtract(vector01,vector02):
   Output 
   newvec should be a 1 x n vector
   
- 
-  In the vecSubtract function two vector lengths are compared, if they are the same length then they can be subtracted.  Each element from their respective places in each row is subtracted from each other then returned into a new vector containing the result
+
+  In the vecSubtract function two vector lengths are compared, if they are the same length then they can be subtracted.
+  Each element from their respective places in each row is subtracted from each other then returned into a new vector containing the result.
   '''
 
   if len(vector01)==len(vector02):# checks to see that the vectors are the same length
