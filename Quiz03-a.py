@@ -23,4 +23,5 @@ def dot(vector01,vector02):
 #testvec1 = a
 #testvec2 = [4,5,6]
 #testvec0 = apple
+
 #print(dot(testvec1,testvec2))
